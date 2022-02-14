@@ -1,0 +1,10 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @oscillator %>
+
+<div>
+  <%= link_to "Edit this oscillator", edit_oscillator_path(@oscillator) %> |
+  <%= link_to "Back to oscillators", oscillators_path %>
+
+  <%= button_to "Destroy this oscillator", @oscillator, method: :delete %>
+</div>
